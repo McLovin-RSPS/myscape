@@ -1,0 +1,118 @@
+package com.arlania.world.content.box;
+
+
+import com.arlania.model.definitions.ItemDefinition;
+import com.arlania.world.World;
+import com.arlania.world.entity.impl.player.Player;
+
+import java.util.Random;
+
+/**
+ * @Author Suic
+ */
+
+public class GoodieBagSponsor {
+//tell me the items so i can show how to do it get mage and range weapon
+    private Player player;
+
+    public GoodieBagSponsor(Player player) {
+        this.player = player;
+    }
+
+    public boolean claimed = false;
+    
+ 
+    public int boxId = 3576;//3578
+
+    public int[] rewards = {4743, 7104, 11423, 7114, 3084, 4060, 7116, 898, 7106, 3246, 20054, 4761, 4780, 4781, 4782, 4784, 4785, 4786, 3085, 4061};
+
+    public void setRewards(int[] rewards) {
+        this.rewards = rewards;
+    }
+
+    public void open() {
+    	//player.getPacketSender().sendString(49210, "20x\\\\nLegendary Prize's!");
+    	player.setLastgoodiebox(3576);
+    	player.getPacketSender().sendString(49202, "ImaginePS GoodieBox @red@(Sponsor)");
+        player.getPacketSender().sendInterface(49200);
+        player.getPacketSender().resetItemsOnInterface(49270, 20);
+        shuffle(rewards);
+        claimed = false;
+        player.selectedGoodieBag = -1;
+        for (int i = 1; i <= 20; i++) {
+            player.getPacketSender().sendString(49232 + i, String.valueOf(i));
+        }
+    }
+
+    public void shuffle(int[] array) {
+        Random rnd = new Random();
+        for (int i = array.length - 1; i > 0; i--) {
+            int index = rnd.nextInt(i + 1);
+            int a = array[index];
+            array[index] = array[i];
+            array[i] = a;
+        }
+    }
+
+    private void showRewards() {
+
+        for (int i = 1; i <= 20; i++) {
+            player.getPacketSender().sendString(49232 + i, "");
+        }
+
+        for (int i = 0; i < rewards.length; i++) {
+            player.getPacketSender().sendItemOnInterface(49270, rewards[i], i, 1);
+        }
+    }
+
+    public boolean handleClick(int buttonId) {
+        if (!(buttonId >= -16325 && buttonId <= -16306)) {
+            return false;
+        }
+
+        if (claimed) {
+            return false;
+        }
+
+        int index = -1;
+
+        if (buttonId >= -16325) {
+            index = 16325 + buttonId;
+        }
+        player.getPacketSender().sendString(49232 + player.selectedGoodieBag + 1,
+                String.valueOf(player.selectedGoodieBag + 1));
+        player.selectedGoodieBag = index;
+        player.getPacketSender().sendString(49232 + index + 1, " Pick");
+
+        return true;
+    }
+    // btw this code is also easy to use, u see how clean it is
+
+    public void claim() {
+        if (player.selectedGoodieBag == -1) {
+            player.sendMessage("@red@You haven't picked a number yet");
+            return;
+        }
+
+        if (boxId == -1) {
+            player.sendMessage("You don't have the required box for that goodiebag");
+            return;
+        }
+        if (!claimed) {
+            if (player.getInventory().contains(boxId)) { // gg this is guaranteed to work
+                showRewards();
+                player.getInventory().delete(boxId, 1);
+                player.getInventory().add(rewards[player.selectedGoodieBag], 1);
+                //World.sendMessage("Alert##Goodiebags##" + player.getUsername() + " Has Got " +ItemDefinition.forId(rewards[player.selectedGoodieBag]).getName() +" as reward!" +"##From Goodiebox(Sponsor) ");
+                String announcement = "@mag@[Sponsor Goodie Box]@bla@ " + player.getUsername() + "@mag@ has @bla@" +ItemDefinition.forId(rewards[player.selectedGoodieBag]).getName() +"@mag@ as reward!";
+                World.sendMessage(announcement);
+                claimed = true;
+                boxId = 3576;
+            } else {
+                player.sendMessage("@red@You need a Sponsor goodiebox to claim the reward");
+            }
+        } else {
+            player.sendMessage("@red@You've already claimed the reward for this box");
+        }
+    }
+}

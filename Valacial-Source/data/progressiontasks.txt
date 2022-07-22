@@ -1,0 +1,30 @@
+The Newbie,Open your Guidebook ,Type ::welcome ,Type ::Train ,1,1,1
+Slayer Recruit,Kill 50 Bomby's Minions,Finish your slayer tasks,Talk to Slayer Master,50,1,1
+The Voter,Claim your vote reward,Go to ::voteboss ,Open the Vote Shop,1,1,1
+AFK Noob,Mine 10 AFK rocks,Mine 1000 AFK Rocks,Mine 10000 AFK Rocks,10,1000,200
+Virgin Killer,Kill 100 Pacman, Kill 100 Donut Homers, Kill 100 Aliens ,100,100,100
+Hidden Valley,Kill 200 Bowser,Kill 200 Mewtwo,Kill 200 Donkey Kong,200,200,200
+This is Fun,Kill 1000 Bandicoots,Finish 20 slayer tasks,Claim 10 Votes,1000,20,10
+Teleporter,Teleport to ::Donatorboss,Teleport to ::Voteboss,Teleport to ::Afkboss,1,1,1
+Got to go Fast,Kill 2500 Sonics,Mine 100k afk ores,Get 100 slayer chest drops,2500,100000,100
+Upgradable,Sucessfully Upgrade an item,100 Slayer Chest Drops,Finish 100 slayer tasks,1,100,100
+Curse Mark,Kill 2000 Spyro,Kill 2000 Sephiroth,Kill 2000 Voldmoert,2000,2000,2000
+Prestiger,Prestige 5 times,Prestige 20 times,Prestige 100 times,5,20,100
+Store manager,open the Auction/POS,claim 10 dailylogin,Claim $10 Bond,1,10,1
+Young Master,Kill 4K monsters,open 100 starter chest,Mine 500k Afk ores,4000,500,500000
+Looter,Loot 100 slayer chests,Loot 150 slayer boxes,Kill 6K monsters,100,150,6000
+Damned ruins,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Advanced Master,Loot 100 slayer chests,Kill 8K Monsters,Bury 1K bones,100,8000,1000
+Multiplier,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Summoner,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Mighty master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Reacher,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Spree Master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Permanent,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Legion Master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Looterbooter,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Pet master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Supreme Master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Dissolver,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Dedicated Son,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000
+Grand Master,Kill 1000 Abbadon,Kill 1000 Link,Kill 1000 Baphomet,1000,1000,1000

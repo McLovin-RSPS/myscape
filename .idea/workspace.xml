@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3fff351-f9e6-4eff-8272-63474bd52ab7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/CacheDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/CacheDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Jarrod_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Jarrod_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Lewis_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Lewis_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/ItemDef_Null.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/OnDemandFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/OnDemandFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Rasterizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Client/src/main/java/com/arlania/Rasterizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/bin1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/bin1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/data/rewards/hosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/data/rewards/hosts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/data/saves/clans/Help" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/data/saves/clans/Help" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/net/login/Lookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/net/login/Lookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/content/teleport/TeleportData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/content/teleport/TeleportData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/entity/impl/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Valacial-Source/src/main/java/com/arlania/world/entity/impl/player/Player.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tWY2H5sZ99COYHmZEct84VGYYw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3fff351-f9e6-4eff-8272-63474bd52ab7" name="Default Changelist" comment="" />
+      <created>1622886122541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622886122541</updated>
+    </task>
+    <servers />
+  </component>
+</project>

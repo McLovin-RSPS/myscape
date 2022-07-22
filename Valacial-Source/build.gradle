@@ -1,0 +1,99 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.21'
+}
+apply plugin:'application'
+apply plugin: 'idea'
+apply plugin: 'java'
+
+mainClassName = "com.arlania.GameServer"
+
+repositories {
+    maven { url 'https://repo.maven.apache.org/maven2/' }
+    jcenter()
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+compileJava   {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+dependencies {
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '5.0.0-alpha.8'
+    compile 'com.github.austinv11:Discord4j:2.9.2'
+    compile group: 'it.unimi.dsi', name: 'fastutil', version: '8.5.8'
+    compile group: 'commons-validator', name: 'commons-validator', version: '1.7'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.0-M1'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.9.0-M1'
+    testCompile group: 'org.junit.platform', name: 'junit-platform-runner', version: '1.9.0-M1'
+    compile 'com.github.austinv11:Discord4j:2.9.2'
+    compile group: 'com.jcabi', name: 'jcabi-jdbc', version: '0.17.7'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
+    compile group: 'com.google.guava', name: 'guava', version: '31.1-jre'
+    compile group: 'com.moandjiezana.toml', name: 'toml4j', version: '0.7.2'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.14.3'
+    compile group: 'org.apache.commons', name: 'commons-compress', version: '1.21'
+    compile group: 'com.moandjiezana.toml', name: 'toml4j', version: '0.7.2'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.3.6'
+    compile group: 'org.apache.ant', name: 'ant', version: '1.10.12'
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.9.0'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
+    compile group: 'org.reflections', name: 'reflections', version: '0.10.2'
+    compile group: 'org.jboss.netty', name: 'netty', version: '3.2.10.Final'
+    compile group: 'org.javacord', name: 'javacord-api', version: '3.4.0'
+    compile group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.13'
+    compile group: 'org.mindrot', name: 'jbcrypt', version: '0.4'
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    compile group: 'org.apache.log4j', name: 'com.springsource.org.apache.log4j', version: '1.2.16'
+
+
+    compile files ('lib/javacord-api-3.0.4.jar')
+    compile files ('lib/teamgames-api-v1.jar')
+    compile files ('lib/JDA-4.0.0_39-withDependencies.jar')
+    compile files ('lib/everythingrs-api.jar')
+    compile files ('lib/json-simple-1.1.1.jar')
+    compile files ('lib/mvgate3.jar')
+
+
+}
+
+repositories {
+    jcenter()
+    // Required for OkHTTP 3.13.0-SNAPSHOT
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+}
+
+sourceSets {
+    main.java.srcDirs = ['src/main/java', 'src/plugins/java']
+    test.java.srcDirs = ['src/test/java']
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'VenexServer',
+                'Main-Class': mainClassName
+    }
+    baseName = 'venex-world-server'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}

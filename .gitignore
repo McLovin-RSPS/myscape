@@ -1,0 +1,7 @@
+*.class
+bin
+/bin
+Valacial-Client/build/
+Valacial-Client/.idea/
+Valacial-Client/.gradle/
+Valacial-Source/out/
