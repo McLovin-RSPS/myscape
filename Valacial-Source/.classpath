@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="bin/main" path="src/main/java">
-		<attributes>
-			<attribute name="gradle_scope" value="main"/>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="bin/main" path="src/main/resources">
-		<attributes>
-			<attribute name="gradle_scope" value="main"/>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12/">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_251">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry excluding="com/arlania/world/content/telosraids/|com/arlania/world/content/telosraids/telos_the_warden/telos/|com/arlania/world/content/telosraids/telos_the_warden/telos/combat_strategy/impl/|com/arlania/world/content/telosraids/telos_the_warden/|com/arlania/world/content/telosraids/telos_the_warden/telos/combat_strategy/" kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/commons-compress-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/everythingrs-api - Copy.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/everythingrs-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/fast-classpath-scanner-2.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/javacord-api-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/JDA-4.0.0_39-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/JDA-4.0.0_39-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/JDA-4.0.0_39-withDependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/motiservice-api-1-0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/Motivote-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/mvgate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/netty-3.5.8.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/teamgames-api-v1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="C:/Users/empir/Desktop/ImaginePS/Valacial-Source/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="output" path="bin1"/>
 </classpath>

@@ -1,4 +1,4 @@
-//package mysql.impl.Highscores;
+package mysql.impl.Highscores;
 
 
 import java.sql.Connection;

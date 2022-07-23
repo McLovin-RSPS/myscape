@@ -11,7 +11,7 @@ import com.arlania.world.content.Effigies;
  * @author relex lawl
  */
 
-public class  Item {
+public class Item {
 
 	/**
 	 * An Item object constructor.

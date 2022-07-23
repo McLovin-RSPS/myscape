@@ -244,6 +244,6 @@ public class GameSettings {
 	
 	public static final String INGAME_LOG = "722547520470909091";
 
-	public static boolean betaMode = false;
+	public static boolean betaMode = true;
 }
 

@@ -36,7 +36,7 @@ public class ItemDefinition { // edit to push
 		
 		ItemDefinition definition = definitions[0];
 		try {
-			File file1 = new File("./data/itemPrices.txt");
+			/*File file1 = new File("./data/itemPrices.txt");
 			BufferedReader reader2 = new BufferedReader(new FileReader(file1));
 			String line1 = null;
 			String[] args2 = line1.split(":");
@@ -49,7 +49,7 @@ public class ItemDefinition { // edit to push
 				definition.id = id;
 				int price = Integer.valueOf(Prices);
 				definition.priceGuideValue = price;
-			}
+			}*/
 			File file = new File(FILE_DIRECTORY);
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			String line;
